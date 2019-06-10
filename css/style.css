@@ -1,0 +1,33 @@
+body {
+    background: url(beige-tiles.png);
+}
+
+
+.header{
+    background: #fff;;
+    margin: 0;
+    width:100%;
+    height: 120px;
+    position: relative;
+    float:left;
+
+}
+
+h1{
+    background: rgb(251, 208, 215);
+    width:250px;
+    height:60px;
+    text-align: center;
+    float: left;
+    position:absolute;
+    margin-left: 40px;
+    margin-top: 60px;
+
+}
+
+
+
+
+
+
+
