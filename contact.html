@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +9,53 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
+
 <body>
-        <div class="header">
+    <div class="header">
+    </div>
+    <!-- Header with my name -->
+    <h1>Marcia Zegarra</h1>
 
-                <!-- Header with my name -->
-                <h1>Marcia Zegarra</h1>
-            
-                <!-- Links to the next pages -->
-                <div>
-                    <p id="about">About</p>
-                    <p id="portfolio">Portfolio</p>
-                    <p id="Contact">Contact</p>
-                </div>
-            </div>
+    <div class="nav">
+        <nav id="nav1">
+            <!-- Navigation header -->
+            <a href="index.html">  About   | </a>
+            <a href="portfolio.html">  Portfolio   | </a>
+            <a href="contact.html">  Contact </a>
+        </nav>
+    </div>
 
-            <div class="container">
-                    <!-- Section name -->
-                    <h2>Contact</h2>
-                    <!-- esthetical line -->
-                    <hr>
-                    <p>Name</p>
-                    <input type="text" name="Full Name">
+<!-- CONTENT -->
+    <div class="container">
 
-                    <p>Email</p>
-                    <input type="text" name="Email" width="">
+        <!-- Section name -->
+        <h2>Contact</h2>
 
-                    <p>Message</p>
-                        <textarea name="Message"></textarea>
-                    <br>
-                    <br>
-                    <button type="button" onclick="alert('Thanks for submitting!')">Submit</button>
+        <!-- esthetical line -->
+        <hr id="hr1">
+
+        <div>
+
+            <p>Name</p>
+            <input id="input1" type="text" name="Full Name" placeholder="Full name">
+
+            <p>Email</p>
+            <input id="input2" type="text" name="Email" placeholder="Email"rows="1" cols="100">
+
+            <p>Message</p>
+            <textarea id="input3" name="Message" placeholder="Message"></textarea>
+            <br>
+            <br>
+            <button type="button" onclick="alert('Thanks for submitting!')">Submit</button>
+        </div>
+    
+        </div>
 
 
+
+        <br>
+        <br>
+        <footer class="footer">Copyright©</footer>
 </body>
+
 </html>
