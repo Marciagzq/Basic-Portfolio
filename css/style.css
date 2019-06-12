@@ -1,5 +1,6 @@
 body {
     background: url(beige-tiles.png);
+    box-sizing: border-box;
 }
 
 
@@ -16,6 +17,7 @@ body {
     border-bottom: rgb(136, 170, 119) solid 2px;
     padding-left: 25px;
     margin-left: -10px;
+
 }
 
 h1{
@@ -53,33 +55,33 @@ a {
     display: inline-block;
     font-size: 40px;
     margin: 20px;
- 
 
 }
 
-.container {s
+.container {
     display: block;
     clear: both;
     width: 960px;
     margin: 0 auto;
     background: #fff;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     padding: 20px;
-    min-height: calc(100vh - 740px);
+
 
 }
 
 h2 {
     background: transparent;
     color: rgb(136, 170, 119);
+    font-size:32px;
 }
 #hr1 {
     border: 1.5px solid rgb(136, 170, 119);
     background: rgb(159, 199, 139);
 }
 
-img{
+#img{
     float: left;
     margin-right: 15px;
     margin-top: 15px;
@@ -99,25 +101,81 @@ img{
         clear: both;
         background: rgb(136, 170, 119);
         margin-left: -10px;
+        position: static;
 }
 
 /* PORTFOLIO */
 
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+img {
+    margin: 15px;
+    margin-left: 10px;
+    position: relative;
+}
+
+#wrapper {
+    width: 80%;
+    float:left;
+}
+
+h4 {
+    background: rgb(118, 145, 105);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    width: 350px;
+    height: 50px;
+    padding-top: 15px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 40px;
+
+
+}
 
 
 /* CONTACT.HTML */
 
+#contacts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
 
 #input1,
 #input2,
 #input3 {
     width: 100%;
     margin: 0 auto;
-    border-radius: 1px;
+    height: 30px;
+    font-size: 18px;
+    color: rgb(61, 61, 61);
 }
 
 #input3 {
     height: 200px;
     border-radius: 1px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+button {
+    background:  rgb(101, 131, 86);
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-style: none;
+}
